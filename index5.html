@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale = 1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="firsttrail.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <meta name="viewport" content="width =device-width,initial-scale=1">
+    <title>Optical</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="logo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="Firsttraim.html" target="_blank">Home</a></li>
+                    <li><a href="products.html" target="_blank">Product</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contract</a></li>
+                    <li><a href="Account.html" target="_blank">Account</a></li>
+                </ul>
+            </nav>
+            <a href="shopping-card.html"><img src="cart.png" width="30px" height="30px"></a>
+           <a href="Firsttraim.html" ><img src="menu.png" class="menu-icon" onclick="menutoggle()"></a>
+            </div>
+    </div>
+    </div>
+    <!---card item detailed-->
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Product </th>
+            <th>Quantity </th>
+            <th>Subtotal </th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="buy-1.jpg">
+                    </div>
+                    <div>
+                        <p>Red Printed Tshirt</p>
+                    <small>Price: $50.00</small>
+                    <br>
+                    <a href="">Remove</a>
+                </div>
+                </td>
+                <td><input type="number" value = "1"></td>
+                <td>$50.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="buy-2.jpg">
+                    </div>
+                    <div>
+                        <p>Red Printed Tshirt</p>
+                    <small>Price: $50.00</small>
+                    <br>
+                    <a href="">Remove</a>
+                </div>
+                </td>
+                <td><input type="number" value = "1"></td>
+                <td>$30.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="buy-3.jpg">
+                    </div>
+                    <div>
+                        <p>Red Printed Tshirt</p>
+                    <small>Price: $60.00</small>
+                    <br>
+                    <a href="">Remove</a>
+                </div>
+                </td>
+                <td><input type="number" value = "1"></td>
+                <td>$50.00</td>
+            </tr>
+        </table>
+<div class="total-price">
+    <table>
+        <tr>
+            <td>Subtotal</td>
+            <td>$200.00</td>
+        </tr>
+        <tr>
+            <td>Tax</td>
+            <td>$200.00</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td>$200.00</td>
+        </tr>
+    </table>
+</div>
+
+
+
+
+    </div>
+<!----footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our app</h3>
+                <p>Download app from android and ios mobile phones.</p>
+                <div class="app-logo">
+                    <img src="play-store.png">
+                    <img src="app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="logo-white.png">
+                <p>Lorem ipsum dolor sit amet, consectetur 
+                    adipisicing elit.Inventore, quasi hic iure, placeat.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Usefull links</h3>
+                <ul>
+                    <li>Coupins</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Us</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twiter</li>
+                    <li>Instagram</li>
+                    <li>WhatsApp</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">CopyRight 2024 - Easy Tutorials </p>
+    </div>
+</div>
+<!---js for googlemenu-->
+<script>
+    var MenuItems = docment.getElementByID("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else{
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+    </script>
+</body>
+</html>
